@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.mui-bar .mui-btn.mui-pull-right {
+	color: #fff;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+	margin-top: 10px;
+	color: #fff;
+}
+
+.mui-bar-nav {
+	background: #000;
+	box-shadow: none;
+}
+
+.mui-bar-nav .mui-title {
+	color: #fff;
+	line-height: 47px;
+}
+
+.ymadd li {
+	height: 100%;
+	background: #005580;
+	padding: 67px 108px;
+	color: #fff;
+}
+
+.ymadd .mui-icon {
+	margin: 20px;
+}
+
+@media (min-width:375px) {
+	.ymadd li {
+		padding: 93px 132px;
+	}
+}
+
+
+/*底部导航*/
+
+.displaytab {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #929292
+}
+
+.mui-tab-label {
+	font-size: 11px;
+	display: block;
+}
+
+.mui-bar .mui-icon {
+	margin: 0;
+	padding: 0;
+}
+
+.mui-bar-tab {
+	background: #ECECEC;
+}
+
+.mui-popover {
+	width: 32%;
+}
+
+.bt-bg {
+	width: 79%;
+	left: 11% !important;
+	margin: auto;
+	text-align: center;
+	top: 37% !important;
+}
+
+.mui-popover .mui-popover-arrow {
+	height: 0;
+	width: 0;
+}
+
+.mui-toast-message {
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	line-height: 45px;
+	background-color: #000;
+	margin-bottom: 230px;
+	opacity: 0.3;
+}
+
+#inside_3 .element-boxP {
+	z-index: 50;
+}
+
+.kuang {
+	padding: 5px;
+	border: 1px dashed deepskyblue;
+}
+
+.bianji {
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
+	height: 50px;
+	z-index: 10;
+	color: #000;
+	margin: 0 auto;
+	background: #202020;
+	display: none;
+}
+
+.wenben {
+	width: 75%;
+	height: 43px;
+	z-index: 10;
+	color: #fff;
+	margin: 5px 5px 5px 17px;
+	line-height: 20px;
+	background: #000;
+	float: left;
+	overflow: scroll;
+}
+
+.baocun {
+	font-size: 25px !important;
+	color: #fff;
+	margin: 11px 2px;
+}
+
+.quxiao {
+	font-size: 25px !important;
+	color: #fff;
+	margin: 11px 2px;
+}
+
+.mui-title {
+	margin: 0;
+}
+
+.mui-icon {
+	font-size: 36px;
+}
+
+.share-content {
+	width: 81%;
+	height: 170px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	z-index: 100;
+	background: #fff;
+	border: 1px solid #ccc;
+	display: none;
+}
+
+.share-choise {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+
+.share-choise .mui-title {
+	width: 70%;
+	left: 16%;
+}
+
+.share-editor {
+	margin: 10px;
+}
+
+.share-editor #pic {
+	float: left;
+	width: 35%;
+	height: 78px;
+	cursor: pointer;
+	display: block;
+}
+
+.share-editor textarea {
+	float: right;
+	width: 63%;
+	height: 78px;
+	background:#ECECEC;
+	line-height: 32px;
+	padding: 5px;
+}
+
+.share-agree {
+	padding: 10px;
+	clear: both;
+	line-height: 10px;
+}
+
+.share-agree span {
+	font-size: 12px;
+	color: #00A0E9;
+}
+
+
+/*弹出模板*/
+
+.mui-content>.mui-table-view:first-child {
+	margin: 0;
+}
+
+.mui-table-view li img {
+	height: 170px;
+	width: 109px;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell {
+	width: 34%;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell>a:not(.mui-btn) {
+	margin: -15px 0 0 -14px;
+}

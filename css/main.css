@@ -1,0 +1,156 @@
+h5 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-indent: 12px;
+}
+
+.mui-title {
+	color: #FFFFFF;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+	font-size: 15px;
+	margin-top: 8px;
+	color: #333;
+	font-family: "微软雅黑";
+}
+
+.mui-slider {
+	height: 120px;
+
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img {
+	width: 100%;
+	height: 120px;
+}
+
+.nav-list .mui-table-view.mui-grid-view .mui-table-view-cell {
+	width: 25%;
+}
+
+.moban-list .mui-table-view.mui-grid-view .mui-table-view-cell {
+	width: 34%;
+}
+
+.logo {
+	width: 20%;
+	height: 43px;
+	float: left;
+	background: url(../img/logo.png) no-repeat 0px 0px;
+	background-size: 100% 100%;
+	margin-top: 0px;
+}
+
+.footer {
+	text-align: center;
+	background: #FFFFFF;
+	margin-top: 10px;
+	height: 60px;
+}
+
+.footer p {
+	padding-top: 5px;
+	margin-bottom: 0;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .img {
+	width: 55%;
+}
+
+.mui-content {
+	margin-bottom: 50px;
+}
+
+.mui-content .mui-slider .mui-slider-item .title1 {
+	position: absolute;
+	top: 30%;
+	right: 5%;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+}
+
+.mui-content .mui-slider .mui-slider-item .title2 {
+	position: absolute;
+	top: 55%;
+	right: 10%;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+}
+
+.mui-content .mui-slider .mui-slider-item .zhizuo {
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	line-height: 23px;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0 0 1px #fbfcfc;
+	border-radius: 8px;
+	text-align: center;
+	top: 70%;
+	right: 15%;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+}
+
+
+/*导航样式*/
+
+.title {
+	margin: 20px 15px 10px;
+	color: #6d6d72;
+	font-size: 15px;
+}
+
+.oa-contact-cell.mui-table .mui-table-cell {
+	padding: 11px 0;
+	vertical-align: middle;
+}
+
+.oa-contact-cell {
+	position: relative;
+	margin: -11px 0;
+}
+
+.oa-contact-avatar {
+	width: 75px;
+}
+
+.oa-contact-avatar img {
+	border-radius: 50%;
+}
+
+.oa-contact-content {
+	width: 100%;
+}
+
+.oa-contact-name {
+	margin-right: 20px;
+}
+
+.oa-contact-name,
+oa-contact-position {
+	float: left;
+}
+.mui-bar-nav{background: #000;}
+/*.mui-bar-tab .displaytab.mui-active{color: #007aff;}*/
+
+.displaytab{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #929292
+}
+
+.mui-tab-label {
+	font-size: 11px;
+	display: block;
+}
+
+.mui-bar .mui-icon{
+	margin:0;
+	padding: 0;
+}

@@ -1,0 +1,23 @@
+h6 {padding-top: 8px;padding-bottom: 8px;text-align: center;}
+
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+img{width: 100%;height: 100%;}
+
+
+.mui-bar-nav{background:#354366}
+.mui-bar .mui-title{color: #fff;}
+.mui-content ul{width:100%;}
+
+.mui-table-view{background:none;width:100%;top:-10px;margin-top:60px;}
+.mui-table-view.mui-grid-view{padding: 0;}
+.mui-table-view.mui-grid-view .mui-table-view-cell{padding:4px 6px;margin: 0;}
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{margin: 0;color: #fff;position: absolute;top: 46%;left: 0;}
+.mui-table-view:before{background:initial;}
+.mui-table-view:after{background:initial;}
+
+/*.mui-content>.mui-table-view:first-child{max-height:400px;overflow:scroll;}*/
+.mui-btn, button{padding: 2px 12px;float: right;margin-right: 8px;}
+.mui-btn-blue, .mui-btn-primary{border: none;background: #007AFF; }
+.mui-btn .mui-badge{background: #fff;color: #007AFF;}
+.choise .txt span{margin-left: 8px;}

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>编辑</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/app.css" />
+		<link rel="stylesheet" type="text/css" href="css/editor.css" />
+		<link rel="stylesheet" type="text/css" href="css/meishijiyi.css" />
+		<style>
+			body {
+				background: #000;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.swiper-container {
+				width: 90%;
+				height: 440px;
+				margin: 60px auto;
+			}
+			
+			@media (min-width:375px) {
+				.swiper-container {
+					height: 542px;
+				}
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		
+		<div class="mui-content">
+			<header class="mui-bar mui-bar-nav">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				<h1 class="mui-title">编辑</h1>
+				<!--<a href="display.html" class="mui-btn mui-btn-link mui-pull-right">预览</a>-->
+			</header>
+
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide-active">
+						<ul class="page-activity">
+							<li id="inside_1">
+								<div class="element-box">
+									<input id="upload" name="file" accept="image/*" type="file" style="display: none" />
+									<img src="img/meishijiyi/mstitle.png" />
+								</div>
+							</li>
+							<li id="inside_2">
+								<div class="element-box">
+									<input id="upload" name="file" accept="image/*" type="file" style="display: none" />
+									<img src="img/meishijiyi/pic13.png" />
+								</div>
+							</li>
+							<li id="inside_3">
+								<div class="element-box">
+									<p class="wenzi">等你的样子，像站在微波炉对面，期待那一声“叮”</p>
+								</div>
+							</li>
+							<li id="inside_9">
+								<div class="element-box">
+									<div class="element-box-contents">
+										<input id="upload" name="file" accept="image/*" type="file" style="display: none" />
+										<img src="img/meishijiyi/pic12.png" />
+									</div>
+								</div>
+							</li>
+							<li id="inside_4">
+								<div class="element-box">
+									<div class="element-box-contents">
+										<input id="upload" name="file" accept="image/*" type="file" style="display: none" />
+										<img src="img/meishijiyi/pic11.png" />
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-slide swiper-slide-next">
+						<ul class="page-activity">
+							<li id="inside_1">
+								<div class="element-box">
+
+									<img src="img/meishijiyi/mstitle.png" />
+								</div>
+							</li>
+							<li id="inside_5">
+								<div class="element-box">
+
+									<img src="img/meishijiyi/pic22.png" />
+								</div>
+							</li>
+							<li id="inside_6" class="wsite-text">
+								<div class="element-box">
+									<p class="wenzi">蟹黄包的汤 温泉蛋的黄 红豆粥 我看你的眼神 都流淌的很慢</p>
+								</div>
+							</li>
+							<li id="inside_4">
+								<div class="element-box">
+									<div class="element-box-contents">
+										<img src="img/meishijiyi/pic11.png" />
+									</div>
+								</div>
+							</li>
+							<li id="inside_8">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic21.png" />
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-slide">
+						<ul class="page-activity">
+							<li id="inside_1">
+								<div class="element-box">
+									<img src="img/meishijiyi/mstitle.png" />
+								</div>
+							</li>
+							<li id="inside_3-1">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic23.png" />
+								</div>
+							</li>
+							<li id="inside_3-2">
+								<div class="element-box">
+									<p class="wenzi">你想吃我吗 </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-slide">
+						<ul class="container4">
+							<li id="inside_1">
+								<div class="element-box">
+									<img src="img/meishijiyi/mstitle.png" />
+								</div>
+							</li>
+							<li id="inside_12">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic12.png" />
+								</div>
+							</li>
+							<li id="inside_11">
+								<div class="element-box">
+									<p class="wenzi">吃着吃着 </p>
+									<p class="wenzi">就过去了虽甜苦辣 </p>
+									<p class="wenzi">吃着吃着 就在一起了</p>
+									<p class="wenzi"> 就要一起吃很多很多饭</p>
+								</div>
+							</li>
+							<li id="inside_13">
+								<div class="element-box">
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="swiper-slide">
+						<ul class="container4">
+							<li id="inside_1">
+								<div class="element-box">
+									<img src="img/meishijiyi/mstitle.png" />
+								</div>
+							</li>
+							<li id="inside_5-1">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic51.png" />
+								</div>
+							</li>
+							<li id="inside_5-2">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic52.png" />
+								</div>
+							</li>
+							<li id="inside_14">
+								<div class="element-box">
+									<img src="img/meishijiyi/1.png" />
+								</div>
+							</li>
+							<li id="inside_15">
+								<div class="element-box">
+									<img src="img/meishijiyi/2.png" />
+								</div>
+							</li>
+							<li id="inside_16">
+								<div class="element-box">
+									<img src="img/meishijiyi/3.png" />
+								</div>
+							</li>
+							<li id="inside_11">
+								<div class="element-box">
+									<p class="wenzi">吃着吃着 </p>
+									<p class="wenzi">就过去了虽甜苦辣 </p>
+									<p class="wenzi">吃着吃着 就在一起了</p>
+									<p class="wenzi"> 就要一起吃很多很多饭</p>
+								</div>
+							</li>
+							<li id="inside_13">
+								<div class="element-box">
+									<img src="img/meishijiyi/pic24.png" />
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="swiper-slide">
+						<ul>
+							<li id="inside_21">
+								<div class="element-box">
+									<p>美食记忆</p>
+								</div>
+							</li>
+							<li id="inside_22">
+								<div class="element-box">
+									<p></p>
+								</div>
+							</li>
+							<li id="inside_23">
+								<div class="element-box">
+									<img src="img/erweima.jpg" />
+								</div>
+							</li>
+							<li id="inside_24">
+								<div class="element-box">
+									<button><a href="main.html">免费使用</a></button>
+								</div>
+							</li>
+							<li id="inside_25">
+								<div class="element-box">
+									<p>创建场景——阿奇哥哥</p>
+								</div>
+							</li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<!--底部导航-->
+		<nav class="mui-bar mui-bar-tab">
+			<!--<a class="displaytab mui-active" href="sample.html">
+				<span class="mui-icon mui-icon-undo"></span>
+				<span class="mui-tab-label">替换</span>
+			</a>-->
+			<a class="displaytab mui-active add" href="#moban">
+				<span class="mui-icon mui-icon-plus"></span>
+				<span class="mui-tab-label">加页</span>
+			</a>
+			<a id="confirmBtn" class="displaytab mui-active" href="#">
+				<span class="mui-icon mui-icon-minus"></span>
+				<span class="mui-tab-label">删页</span>
+				<!--				<div class="info"></div>-->
+			</a>
+			<a class="displaytab mui-active music-btn" href="#music">
+				<span class="mui-icon mui-icon-compose"></span>
+				<span class="mui-tab-label">音乐</span>
+			</a>
+			<a id="toastBtn" class="displaytab mui-active" href="#">
+				<span class="mui-icon mui-icon-loop"></span>
+				<span class="mui-tab-label">保存</span>
+			</a>
+			<a class="displaytab" href="#">
+				<span class="mui-icon mui-icon-redo complete"></span>
+				<span class="mui-tab-label">发布</span>
+			</a>
+		</nav>
+        
+        <!--编辑文字-->
+		<div class="bianji">
+			<div class="wenben" contenteditable="true"></div>
+			<span class="mui-icon mui-icon-checkmarkempty mui-pull-right baocun"></span>
+			<span class="mui-icon mui-icon-closeempty mui-pull-right quxiao"></span>
+		</div>
+        
+        <!--封面和标题-->
+		<div class="share-content">
+			<div class="share-choise">
+				<a href="complete.html"><span class="mui-icon mui-icon-checkmarkempty mui-pull-right determine"></span></a>
+				<h4 class="mui-title">分享语</h4>
+				<a href="#"><span class="mui-icon mui-icon-closeempty mui-pull-left cancle"></span></a>
+			</div>
+			<div class="share-editor">
+				<span class="pick">
+                     	<img id="pic" src="" >
+		                <input id="upload" name="file" accept="image/*" type="file" style="display:none"/>
+					</span>
+				<textarea autofocus="" name="content" placeholder="说点什么吧..."></textarea>
+			</div>
+			<div class="share-agree">
+				<input name="checkbox" type="checkbox">
+				<span>同意用户协议</span>
+			</div>
+		</div>
+		
+		<!--添加模板页面-->
+		<div id="moban" class="mui-content" style="display: none;">
+		    <ul class="mui-table-view mui-grid-view">
+                <li id="load" class="mui-table-view-cell mui-media mui-col-xs-4">
+                	<a href="#"><img src="img/1.jpg" ></a>
+                </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/2.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/3.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/4.jpg" ></a>
+			    </li> 
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/1.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/2.jpg" ></a>
+			    </li>   
+		         <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                	<a href="#"><img src="img/1.jpg" ></a>
+                </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/2.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/3.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/2.jpg" ></a>
+			    </li>   
+		         <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                	<a href="#"><img src="img/1.jpg" ></a>
+                </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/2.jpg" ></a>
+			    </li>
+			    <li class="mui-table-view-cell mui-media mui-col-xs-4">
+			    	<a href="#"><img src="img/3.jpg" ></a>
+			    </li>
+		    </ul>  
+		    <!--模板底部导航-->
+			<nav class="mui-bar mui-bar-tab">
+				<a class="displaytab mui-active" href="#">
+					<span class="mui-icon mui-icon-closeempty"></span>
+				</a>
+				<a class="displaytab mui-active" href="#">
+					<span class="mui-tab-label">纯图</span>
+				</a>
+				<a class="displaytab" href="#">
+					<span class="mui-tab-label">图文</span>
+				</a>
+			</nav>
+		</div>
+		
+		<!--选择音乐-->
+		<div id="music" class="mui-content" style="display: none;">
+			<div class="mui-card">
+				<ul class="mui-table-view mui-table-view-radio">
+					<li data-group="默认" class="mui-table-view-divider mui-indexed-list-group">默认</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">无背景音乐</a></li>
+					
+					<li data-group="欢快" class="mui-table-view-divider mui-indexed-list-group">欢快</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">四小天鹅</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">斗牛进行曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">西班牙斗牛曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">探戈之歌</a></li>
+					
+					<li data-group="优美" class="mui-table-view-divider mui-indexed-list-group">优美</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">Kiss The Rain</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">青岑</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">runing</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">卡农</a></li>
+					
+					<li data-group="情景" class="mui-table-view-divider mui-indexed-list-group">情景</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">生日</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">摇篮曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">婚礼进行曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">情人节</a></li>
+				</ul>
+			</div>
+			<nav class="mui-bar mui-bar-tab">
+				<a class="displaytab mui-active" href="#">
+					<span class="mui-icon mui-icon-closeempty"></span>
+				</a>
+				<a class="displaytab mui-active" href="#">
+					<span class="mui-icon mui-icon-checkmarkempty"></span>
+			</a>
+			</nav>
+		</div>
+        
+
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/swiper.animate-twice.min.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script>
+			//mui初始化
+			mui.init({
+				swipeBack: true //启用右滑关闭功能
+			});
+
+			//页面滑动
+			//页面动画初始化	
+			var mySwiper = new Swiper('.swiper-container', {
+				//					direction: 'vertical',
+				//					loop: true,
+				onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+					swiperAnimateCache(swiper); //隐藏动画元素 
+					swiperAnimate(swiper); //初始化完成开始动画
+				},
+				onSlideChangeEnd: function(swiper) {
+					swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+				}
+			})
+
+			//选择图片上传替换
+			$(function() {
+				$("#pic").click(function() {
+					$("#upload").click(); //隐藏了input:file样式后，点击头像就可以本地上传
+					$("#upload").on("change", function() {
+						var objUrl = getObjectURL(this.files[0]); //获取图片的路径，该路径不是图片在本地的路径
+						if(objUrl) {
+							$("#pic").attr("src", objUrl); //将图片路径存入src中，显示出图片
+						}
+					});
+				});
+			});
+			//建立一個可存取到該file的url
+			function getObjectURL(file) {
+				var url = null;
+				if(window.createObjectURL != undefined) { // basic
+					url = window.createObjectURL(file);
+				} else if(window.URL != undefined) { // mozilla(firefox)
+					url = window.URL.createObjectURL(file);
+				} else if(window.webkitURL != undefined) { // webkit or chrome
+					url = window.webkitURL.createObjectURL(file);
+				}
+				return url;
+			}
+
+			//删除页面
+			document.getElementById("confirmBtn").addEventListener('tap', function() {
+				var btnArray = ['否', '是'];
+				mui.confirm('确定要删除此页吗？', '', btnArray, function(e) {
+					if(e.index == 1) {
+						$('.swiper-slide-active').remove();
+						mySwiper.updateSlidesSize();
+					} else {
+						return false;
+					}
+				})
+			});
+
+			//保存页面
+			document.getElementById("toastBtn").addEventListener('tap', function() {
+				mui.toast('已保存');
+			});
+
+			//点击更换文本内容
+			$('.wenzi').click(function() {
+				$(this).addClass("kuang");
+				$('.bianji').show();
+				$('.wenben').text($(this).text());
+
+			})
+			$('.quxiao').click(function() {
+				$('.wenzi').removeClass("kuang");
+				$('.bianji').hide();
+			})
+			$('.baocun').click(function() {
+				$('.kuang').text($('.wenben').text()).removeClass("kuang");
+				$('.bianji').hide();
+			})
+
+			//封面和标题编辑
+			$('.complete').click(function() {
+				$('.share-content').show();
+			})
+			$('.cancle').click(function() {
+				$('.share-content').hide();
+			})
+
+			//音乐
+			var x = document.getElementById("media");
+			$(function() {
+				$("#audio_btn").click(function() {
+					$(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
+					//控制背景音乐 播放或暂停            
+					if($(this).hasClass("rotate")) {
+						x.play();
+					} else {
+						x.pause();
+					}
+				})
+			});
+            
+            //添加页面
+            $('.add').click(function() {
+				$('#moban').show();
+				$('.swiper-container').hide();
+				$('header').hide();
+				$('.rotate').hide();
+			})
+            $('.mui-icon-closeempty').click(function(){
+            	$('#moban').hide();
+            	$('.swiper-container').show();
+				$('header').show();
+				$('.rotate').show();
+            })
+            
+            //选择音乐
+            $('.music-btn').click(function() {
+				$('#music').show();
+				$('.swiper-container').hide();
+				$('header').hide();
+				$('.rotate').hide();
+			})
+            $('.mui-icon-closeempty').click(function(){
+            	$('#music').hide();
+            	$('.swiper-container').show();
+				$('header').show();
+				$('.rotate').show();
+            })
+
+		</script>
+
+	</body>
+
+</html>

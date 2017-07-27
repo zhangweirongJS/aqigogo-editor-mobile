@@ -1,0 +1,635 @@
+.page {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.page-1 {
+	background-image: url(../../img/zqyaoqing/p-bg1.jpg);
+}
+
+.page-2 {
+	background-image: url(../../img/zqyaoqing/p-bg1.jpg);
+}
+
+.page-3 {
+	background-image: url(../../img/zqyaoqing/p-bg1.jpg);
+}
+
+.page-4 {
+	background-image: url(../../img/zqyaoqing/p-bg1.jpg);
+}
+
+.page-5 {
+	background: #fff;
+}
+
+
+/*1*/
+
+.page-1 .pic0 img {
+	position: absolute;
+	top: 90px;
+	left: 44px;
+}
+
+.page-1 .pic1 img {
+	position: absolute;
+	left: -37px;
+	animation: fadeInDown 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInDown 1.5s ease 1s 1 both;
+	-moz-animation: fadeInDown 1.5s ease 1s 1 both;
+	-o-animation: fadeInDown 1.5s ease 1s 1 both;
+}
+
+.page-1 .pic2 img {
+	position: absolute;
+	top: 100px;
+	left: 260px;
+	animation: fadeInRight 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInRight 1.5s ease 1s 1 both;
+	-moz-animation: fadeInRight 1.5s ease 1s 1 both;
+	-o-animation: fadeInRight 1.5s ease 1s 1 both;
+}
+
+.page-1 .pic3 img {
+	position: absolute;
+	top: 290px;
+	left: -20px;
+	animation: fadeInLeft 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInLeft 1.5s ease 1s 1 both;
+	-moz-animation: fadeInLeft 1.5s ease 1s 1 both;
+	-o-animation: fadeInLeft 1.5s ease 1s 1 both;
+}
+
+.page-1 .pic4 img {
+	position: absolute;
+	top: 220px;
+	left: 200px;
+	animation: bounceIn 1.5s ease 1s 1 both;
+	-webkit-animation: bounceIn 1.5s ease 1s 1 both;
+	-moz-animation: bounceIn 1.5s ease 1s 1 both;
+	-o-animation: bounceIn 1.5s ease 1s 1 both;
+}
+
+.page-1 .pic5 img {
+	position: absolute;
+	top: 51px;
+	left: 132px;
+	animation: puffIn 1.5s ease 0s 1 both;
+	-webkit-animation: puffIn 1.5s ease 0s 1 both;
+	-moz-animation: puffIn 1.5s ease 0s 1 both;
+	-o-animation: puffIn 1.5s ease 0s 1 both;
+}
+
+.page-1 .pic6 {
+	/*position: absolute;
+	top: 450px;
+	left: 40px;*/
+	padding-top: 470px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #EF4141;
+	animation: zoomIn 2s ease 1s 1 both;
+	-webkit-animation: zoomIn 2s ease 1s 1 both;
+	-moz-animation: zoomIn 2s ease 1s 1 both;
+	-o-animation: zoomIn 2s ease 1s 1 both;
+}
+
+.page-1 .pic6 .pic6k {
+	width: 290px;
+	height: 44px;
+	background: #fff;
+	margin: 0 auto;
+	animation: zoomIn 2s ease 1s 1 both;
+	-webkit-animation: zoomIn 2s ease 1s 1 both;
+	-moz-animation: zoomIn 2s ease 1s 1 both;
+	-o-animation: zoomIn 2s ease 1s 1 both;
+}
+
+
+/*2*/
+
+.page-2 .pic0 img {
+	position: absolute;
+	left: -50px;
+	transform: none;
+	animation: rotateIn 20s linear 0s infinite both;
+	-webkit-animation: rotateIn 20s linear 0s infinite both;
+	-moz-animation: rotateIn 20s linear 0s infinite both;
+	-o-animation: rotateIn 20s linear 0s infinite both;
+}
+
+.page-2 .pic1 img {
+	position: absolute;
+	left: -30px;
+	animation: fadeInDown 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInDown 1.5s ease 1s 1 both;
+	-moz-animation: fadeInDown 1.5s ease 1s 1 both;
+	-o-animation: fadeInDown 1.5s ease 1s 1 both;
+}
+
+.page-2 .pic2 img {
+	position: absolute;
+	top: 100px;
+	left: 260px;
+	animation: fadeInRight 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInRight 1.5s ease 1s 1 both;
+	-moz-animation: fadeInRight 1.5s ease 1s 1 both;
+	-o-animation: fadeInRight 1.5s ease 1s 1 both;
+}
+
+.page-2 .pic3 img {
+	position: absolute;
+	top: 320px;
+	left: -20px;
+	animation: fadeInLeft 1.5s ease 1s 1 both;
+	-webkit-animation: fadeInLeft 1.5s ease 1s 1 both;
+	-moz-animation: fadeInLeft 1.5s ease 1s 1 both;
+	-o-animation: fadeInLeft 1.5s ease 1s 1 both;
+}
+
+.page-2 .pic4 img {
+	position: absolute;
+	top: 350px;
+	left: 225px;
+	animation: fadeInUp 2s ease 1s 1 both;
+	-webkit-animation: fadeInUp 2s ease 1s 1 both;
+	-moz-animation: fadeInUp 2s ease 1s 1 both;
+	-o-animation: fadeInUp 2s ease 1s 1 both;
+}
+
+.page-2 .pic5 img {
+	position: absolute;
+	top: 51px;
+	left: 106px;
+	animation: puffIn 1.5s ease 0s 1 both;
+	-webkit-animation: puffIn 1.5s ease 0s 1 both;
+	-moz-animation: puffIn 1.5s ease 0s 1 both;
+	-o-animation: puffIn 1.5s ease 0s 1 both;
+}
+
+.page-2 .pic6 {
+	position: absolute;
+	top: 420px;
+	left: 15px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #EF4141;
+	animation: zoomIn 2s ease 1s 1 both;
+	-webkit-animation:zoomIn 2s ease 1s 1 both;
+	-moz-animation: zoomIn 2s ease 1s 1 both;
+	-o-animation: zoomIn 2s ease 1s 1 both;
+}
+
+.page-2 .font1 {
+	/*position: absolute;
+	top: 160px;
+	left: 125px;*/
+	padding-top: 160px;
+	animation: fadeIn 2s ease 0.5s 1 both;
+	-webkit-animation:fadeIn 2s ease 0.5s 1 both;
+	-moz-animation: fadeIn 2s ease 0.5s 1 both;
+	-o-animation: fadeIn 2s ease 0.5s 1 both;
+	font-size: 24px;
+	color: darkred;
+}
+
+.page-2 .font2 {
+	/*position: absolute;
+	top: 210px;
+	left:108px;*/
+	margin-top: 20px;
+	line-height: 30px;
+	animation: fadeInDown 1.5s ease 1s 1 both;
+	-webkit-animation:fadeInDown 1.5s ease 1s 1 both;
+	-moz-animation: fadeInDown 1.5s ease 1s 1 both;
+	-o-animation: fadeInDown 1.5s ease 1s 1 both;
+	font-size: 18px;
+	color: darkred;
+}
+
+
+/*3*/
+
+.page-3 .pic0 img {
+	/*position: absolute;
+	left: 15px;*/
+	animation: fadeInDown 2s ease 0s 1 both;
+	-webkit-animation:fadeInDown 2s ease 0s 1 both;
+	-moz-animation: fadeInDown 2s ease 0s 1 both;
+	-o-animation: fadeInDown 2s ease 0s 1 both;
+}
+
+.page-3 .pic1 {
+	/*position: absolute;
+	left: 140px;
+	top: 25px;*/
+	animation: zoomIn 1.5s ease 1s 1 both;
+	-webkit-animation:zoomIn 1.5s ease 1s 1 both;
+	-moz-animation: zoomIn 1.5s ease 1s 1 both;
+	-o-animation: zoomIn 1.5s ease 1s 1 both;
+	color: darkred;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: -480px;
+}
+
+.page-3 .pic2 img {
+	position: absolute;
+	/*left: 120px;
+	top: 75px;*/
+	margin-top: 5px;
+	margin-left: -67px;
+	transform: none;
+	animation: rotateIn 20s linear 0s infinite both;
+	-webkit-animation:rotateIn 20s linear 0s infinite both;
+	-moz-animation: rotateIn 20s linear 0s infinite both;
+	-o-animation:rotateIn 20s linear 0s infinite both;
+}
+
+.page-3 .pic3 img {
+	/*position: absolute;
+	left: 132px;
+	top: 87px;*/
+	animation: fadeIn 0.1s ease 1s 1 both;
+	-webkit-animation:fadeIn 0.1s ease 1s 1 both;
+	-moz-animation: fadeIn 0.1s ease 1s 1 both;
+	-o-animation:fadeIn 0.1s ease 1s 1 both;
+	z-index: 6;
+	border-radius: 54px;
+	opacity: 1;
+	margin-top: 18px;
+}
+
+.page-3 .font3 h3 {
+	/*position: absolute;
+	top: 215px;
+	left: 155px;*/
+	animation: puffIn 2s ease 1.5s 1 both;
+	-webkit-animation:puffIn 2s ease 1.5s 1 both;
+	-moz-animation: puffIn 2s ease 1.5s 1 both;
+	-o-animation:puffIn 2s ease 1.5s 1 both;
+	font-size: 16px;
+	color: darkred;
+	margin-top: 24px;
+}
+
+.page-3 .font3 p {
+	/*position: absolute;
+	top: 220px;
+	left: 86px;*/
+	width: 160px;
+	line-height: 22px;
+	margin:auto;
+	margin-top: 10px;
+	animation: puffIn 2s ease 1.5s 1 both;
+	-webkit-animation:puffIn 2s ease 1.5s 1 both;
+	-moz-animation: puffIn 2s ease 1.5s 1 both;
+	-o-animation:puffIn 2s ease 1.5s 1 both;
+	margin: 25px;
+	color: darkred;
+}
+
+
+/*4*/
+
+.page-4 .pic0 img {
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	animation: fadeInLeft 1.5s ease 0s 1 both;
+	-webkit-animation: fadeInLeft 1.5s ease 0s 1 both;
+	-moz-animation:  fadeInLeft 1.5s ease 0s 1 both;
+	-o-animation: fadeInLeft 1.5s ease 0s 1 both;
+	z-index: 1000;
+}
+
+.page-4 .title {
+	background: #fff;
+	width: 155px;
+	height: 50px;
+	animation: zoomIn 1.5s ease 0s 1 both;
+	-webkit-animation:zoomIn 1.5s ease 0s 1 both;
+	-moz-animation:  zoomIn 1.5s ease 0s 1 both;
+	-o-animation: zoomIn 1.5s ease 0s 1 both;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.page-4 .title span {
+	font-size: 24px;
+	color: darkred;
+	text-align: center;
+	line-height: 50px;
+}
+
+.page-4 .texbox {
+	margin-top: 35px;
+}
+
+.page-4 .texbox p {
+	background: #fff;
+	width: 190px;
+	height: 42px;
+	text-align: left;
+	line-height: 42px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-left: 10px;
+	font-size: 15px;
+	animation: flipInX 1.5s ease 1s 1 both;
+	-webkit-animation:flipInX 1.5s ease 1s 1 both;
+	-moz-animation:flipInX 1.5s ease 1s 1 both;
+	-o-animation:flipInX 1.5s ease 1s 1 both;
+}
+
+.page-4 .texbox .tj {
+	background: darkred;
+	width: 200px;
+	height: 37px;
+	line-height: 42px;
+	margin: auto;
+	margin-top: 30px;
+	animation: flipInX 1.5s ease 1s 1 both;
+	-webkit-animation:flipInX 1.5s ease 1s 1 both;
+	-moz-animation:flipInX 1.5s ease 1s 1 both;
+	-o-animation:flipInX 1.5s ease 1s 1 both;
+}
+
+.page-4 .texbox .tj span {
+	color: #fff;
+	margin-top: 30px
+}
+
+.page-4 .pic1 img {
+	position: absolute;
+	left: -45px;
+	top: 380px;
+}
+
+.page-4 .pic2 img {
+	position: absolute;
+	top: 360px;
+	left: 105px;
+}
+
+.page-4 .pic3 img {
+	position: absolute;
+}
+
+
+/*5*/
+
+.page-5 li h3 {
+	border-bottom: 1px #878787 solid;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 80px;
+}
+
+.page-5 li img {
+	margin-top: 25px;
+	animation: fadeIn 1.5s ease 1s 1 both;
+	-webkit-animation:fadeIn 1.5s ease 1s 1 both;
+	-moz-animation:fadeIn 1.5s ease 1s 1 both;
+	-o-animation:fadeIn 1.5s ease 1s 1 both;
+}
+
+.page-5 li button {
+	background: #2096F9;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.page-5 .footer {
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+
+/*音乐*/
+
+#audio_btn {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 200;
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/music_icon.png);
+	background-size: contain;
+}
+
+.rotate {
+	-webkit-animation: rotating 1.2s linear infinite;
+	-moz-animation: rotating 1.2s linear infinite;
+	-o-animation: rotating 1.2s linear infinite;
+	animation: rotating 1.2s linear infinite
+}
+
+@-webkit-keyframes rotating {
+	from {
+		-webkit-transform: rotate(0)
+	}
+	to {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@keyframes rotating {
+	from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+@-moz-keyframes rotating {
+	from {
+		-moz-transform: rotate(0)
+	}
+	to {
+		-moz-transform: rotate(360deg)
+	}
+}
+
+.share {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/guide.png) no-repeat center;
+	background-size: cover;
+	z-index: 9999;
+}
+
+
+/* loading */
+
+#loading {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background: #5fc4d6;
+	font-size: 1em;
+	text-align: center;
+	overflow: hidden;
+	z-index: 9999;
+}
+
+.spinner {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 40%;
+}
+
+.container1 > div,
+.container2 > div,
+.container3 > div {
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border-radius: 100%;
+	position: absolute;
+	-webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+	animation: bouncedelay 1.2s infinite ease-in-out;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.spinner .spinner-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.container2 {
+	-webkit-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+}
+
+.container3 {
+	-webkit-transform: rotateZ(90deg);
+	transform: rotateZ(90deg);
+}
+
+.circle1 {
+	top: 0;
+	left: 0;
+}
+
+.circle2 {
+	top: 0;
+	right: 0;
+}
+
+.circle3 {
+	right: 0;
+	bottom: 0;
+}
+
+.circle4 {
+	left: 0;
+	bottom: 0;
+}
+
+.container2 .circle1 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.container3 .circle1 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+.container1 .circle2 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.container2 .circle2 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+.container3 .circle2 {
+	-webkit-animation-delay: -0.7s;
+	animation-delay: -0.7s;
+}
+
+.container1 .circle3 {
+	-webkit-animation-delay: -0.6s;
+	animation-delay: -0.6s;
+}
+
+.container2 .circle3 {
+	-webkit-animation-delay: -0.5s;
+	animation-delay: -0.5s;
+}
+
+.container3 .circle3 {
+	-webkit-animation-delay: -0.4s;
+	animation-delay: -0.4s;
+}
+
+.container1 .circle4 {
+	-webkit-animation-delay: -0.3s;
+	animation-delay: -0.3s;
+}
+
+.container2 .circle4 {
+	-webkit-animation-delay: -0.2s;
+	animation-delay: -0.2s;
+}
+
+.container3 .circle4 {
+	-webkit-animation-delay: -0.1s;
+	animation-delay: -0.1s;
+}
+
+@-webkit-keyframes bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0.0)
+	}
+	40% {
+		-webkit-transform: scale(1.0)
+	}
+}
+
+@keyframes bouncedelay {
+	0%,
+	80%,
+	100% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	}
+	40% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>样例</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sample.css"/>
+		
+
+	</head>
+
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">样例</h1>
+		</header>-->
+		<div class="mui-content">
+			<div class="btnk">
+				<ul class="nav">
+				  <li><h3>行业分类</h3>
+				    <ul>
+				        <li><h3>IT</h3></li>
+				        <li><h3>媒体</h3></li>
+				        <li><h3>服装</h3></li>
+				        <li><h3>婚庆</h3></li>
+				        <li><h3>房产</h3></li>
+				        <li><h3>旅游</h3></li>
+				        <li><h3>娱乐</h3></li>
+				        <li><h3>美容</h3></li>
+				        <li><h3>摄影</h3></li>
+				        <li><h3>公益</h3></li>
+				        <li><h3>餐饮</h3></li>
+				        <li><h3>家具</h3></li>
+				        <li><h3>汽车</h3></li>
+				        <li><h3>金融</h3></li>
+				        <li><h3>调查表</h3></li>
+				    </ul>
+				  </li>
+				</ul>
+			</div>
+		    <ul class="mui-table-view mui-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="page/phone/zhaopin.html">
+		                <img class="mui-media-object" src="img/heka/7.jpg">
+		                <div class="mui-media-body">企业招聘</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="page/phone/jianyuezp.html">
+		                <img class="mui-media-object" src="img/heka/6.jpg">
+		                <div class="mui-media-body">校园招聘</div></a></li>
+		        <!--<li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="#"><img class="mui-media-object" src="../img/heka/sr.png">
+		                <div class="mui-media-body">生日祝福</div></a></li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="#">
+		                <img class="mui-media-object" src="../img/heka/qx.png">
+		                <div class="mui-media-body">情人节</div></a></li>-->
+		    </ul>    
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mui.min.js"></script>
+
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		
+	    $(document).ready(function() {
+	        $("ul.nav li").hover(function(){
+	            $(this).addClass("on");
+	
+	        },
+	        function(){
+	            $(this).removeClass("on");
+	
+	        })
+	    });
+	
+	    $(document).ready(function() {
+	        $("ul.nav li").hover(function(){
+	            $(this).parent("ul").siblings("h3").addClass("choice");
+	
+	        },
+	        function(){
+	            $(this).parent("ul").siblings("h3").removeClass("choice");
+	        })
+	    });
+	
+	    $(document).ready(function() {       
+	            if ($("ul.nav li").find("ul") .html()!="") {
+	                $("ul.nav li").parent("ul").siblings("h3").append("<span class='sub'></span>");                
+	            }
+	    });
+
+	</script>
+</html>

@@ -1,0 +1,46 @@
+h6 {padding-top: 8px;padding-bottom: 8px;text-align: center;}
+body{background: #efeff4;}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+img{width: 100%;height: 100%;}
+
+
+.mui-bar-nav{background:#354366}
+.mui-bar .mui-title{color: #fff;}
+.mui-content ul{width:100%;}
+.mui-table-view{background:none;width:100%;top:50px;/*margin-top:60px;*/}
+.mui-table-view.mui-grid-view{padding: 0;}
+.mui-table-view.mui-grid-view .mui-table-view-cell{padding:9px 12px;margin: 0;}
+/*.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{margin: 0;color: #fff;position: absolute;top: 46%;left: 0;}*/
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{color: #000;}
+.mui-table-view.mui-grid-view .mui-table-view-cell>a:not(.mui-btn){margin:-13px -16px;}
+.mui-table-view:before{background:initial;}
+.mui-table-view:after{background:initial;}
+
+
+.btnk ul.nav li{ width:50%; text-align:center;float: left;}
+.btnk ul.nav li h3{height: 40px; line-height: 40px;margin: 0; font-size: 14px;}
+.btnk ul.nav > li > h3{ background: #fff;}
+.btnk ul.nav > li > ul > li{width: 100%;}
+.btnk ul.nav > li > ul > li > ul >li{width: 100%;}
+.btnk ul.nav > li > ul > li h3{ background:#f7f7f7;}
+.btnk ul.nav > li > ul > li h3:hover{ background: #fff;}
+.btnk ul.nav > li h3{color: #000;font-size: 12px; font-weight: initial;margin-bottom:1px}
+.btnk ul.nav > li h3:hover{color: #0062CC;}
+.btnk ul > li > ul{ display: none;}
+.btnk ul > li.on > ul{ display: block;}
+.btnk ul.nav li{ position: relative;}
+.btnk ul.nav > li > ul > li ul{ position:  absolute; top:-100%; right:-100%;}
+.btnk ul.nav > li > ul > li .top80{position: absolute;top:-82px;}
+.btnk ul.nav > li > ul > li .mixh{height: 162px;overflow: scroll;}
+.btnk ul.nav > li > ul > li .mixh1{height: 122px;overflow: scroll;}
+/*.btnk ul.nav span.sub{ position: absolute; display: block; right:10px; top: 0; width: 10px; height: 40px; }*/
+
+.btnk{position: fixed;z-index: 9999;background: #efeff4;width: 100%;}
+.btn-group,.btn-group-vertical{width:49%;}
+.btn-group .btn{width: 103%;border-radius:0 ;}
+.btn-group .dropdown-toggle{box-shadow:none;-webkit-box-shadow:none}
+.btn-group .btn-lg{font-size: 14px;padding: 7px 16px;}
+.btn-group button{border-radius:0;}
+.btn-group .btn .caret{margin-left: 8px;}
+.dropdown-menu{margin-top: 0;}

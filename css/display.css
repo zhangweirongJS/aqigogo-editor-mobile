@@ -1,0 +1,4 @@
+
+.displaytab{display: table-cell;text-align: center;vertical-align: middle;color: #929292}
+.displaytab .mui-bar .mui-icon{margin:0;padding: 0;} 	
+.displaytab .mui-tab-label {font-size: 11px;display: block;}

@@ -1,0 +1,28 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+
+
+.mui-bar .mui-btn.mui-pull-right{color: #fff;}
+.mui-bar-nav.mui-bar .mui-icon{margin-top: 10px; color: #fff;}
+.mui-bar-nav{background: #000; box-shadow: none;}
+.mui-bar-nav .mui-title{color: #fff;line-height: 47px;}
+
+.mui-content{background: #000;}
+.ymadd {}
+.ymadd li{height:100%; background: #005580;padding:67px 108px;color: #fff;}
+.ymadd .mui-icon{margin:20px;}
+
+@media (min-width:375px ) {
+	.ymadd li{padding:93px 132px;}
+}
+
+/*底部导航*/
+.displaytab{display: table-cell;text-align: center;vertical-align: middle;color: #929292}
+.mui-tab-label {font-size: 11px;display: block;}
+.mui-bar .mui-icon {margin:0;padding: 0;}
+.mui-bar-tab{background: #202020;}
+.mui-popover {width: 32%;}
+.mui-table-view-cell{text-align: center;}
+.bt-bg{width: 79%;left: 11% !important;margin: auto;text-align: center;top: 37% !important;}
+.mui-popover .mui-popover-arrow {height: 0;width: 0;}        
+

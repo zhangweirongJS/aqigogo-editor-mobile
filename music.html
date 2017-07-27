@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>选择背景音乐</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css" />
+	    <link rel="stylesheet" href="css/music.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">选择背景音乐</h1>
+			<a href="editor.html" id='alertbtn' class="mui-btn mui-btn-blue mui-btn-link mui-pull-right">完成</a>
+		</header>
+		
+		<div class="mui-content">
+			<div class="mui-card">
+				<ul class="mui-table-view mui-table-view-radio">
+					<li data-group="默认" class="mui-table-view-divider mui-indexed-list-group">默认</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">无背景音乐</a></li>
+					
+					<li data-group="欢快" class="mui-table-view-divider mui-indexed-list-group">欢快</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">四小天鹅</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">斗牛进行曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">西班牙斗牛曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">探戈之歌</a></li>
+					
+					<li data-group="优美" class="mui-table-view-divider mui-indexed-list-group">优美</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">Kiss The Rain</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">青岑</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">runing</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">卡农</a></li>
+					
+					<li data-group="情景" class="mui-table-view-divider mui-indexed-list-group">情景</li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">生日</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">摇篮曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">婚礼进行曲</a></li>
+					<li class="mui-table-view-cell"><a class="mui-navigate-right">情人节</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/mui.min.js"></script>
+	<!--<script type="text/javascript">
+		//mui初始化
+			mui.init({
+			swipeBack:true //启用右滑关闭功能
+		    });
+			var info = document.getElementById("info");
+			document.getElementById("alertbtn").addEventListener('tap', function() {
+				mui.alert('欢迎使用Hello MUI', 'Hello MUI', function() {
+//					info.innerText = '你刚关闭了警告框';
+				});
+			});
+	</script>-->
+
+</html>
